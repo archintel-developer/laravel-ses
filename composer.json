@@ -9,7 +9,5 @@
             "email": "developer@archintel.com"
         }
     ],
-    "require": {},
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+    "require": {}
 }
