@@ -1,0 +1,14 @@
+{
+    "name": "archintel-dev/laravelses",
+    "description": "Email tracker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seth",
+            "email": "seth.abaquita@executivemosaic.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
