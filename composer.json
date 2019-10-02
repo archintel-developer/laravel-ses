@@ -29,6 +29,16 @@
             "archintel-dev\\laravel-ses\\Tests\\": "tests/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "archintel-dev\\laravel-ses\\LaravelSesServiceProvider"
+            ],
+            "aliases": {
+                "SesMail": "archintel-dev\\laravel-ses\\SesMail"
+            }
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
