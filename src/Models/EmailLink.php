@@ -1,6 +1,6 @@
 <?php
 
-namespace oliveready7\LaravelSes\Models;
+namespace ArchintelDev\LaravelSes\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

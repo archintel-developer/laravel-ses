@@ -1,6 +1,6 @@
 <?php
 
-namespace oliveready7\LaravelSes\Controllers;
+namespace ArchintelDev\LaravelSes\Controllers;
 
 use Illuminate\Routing\Controller;
 use SesMail;

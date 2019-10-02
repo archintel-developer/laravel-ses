@@ -1,6 +1,6 @@
 <?php
 
-namespace oliveready7\LaravelSes;
+namespace ArchintelDev\LaravelSes;
 
 use Illuminate\Console\Command;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace oliveready7\LaravelSes;
+namespace ArchintelDev\LaravelSes;
 
 use Illuminate\Support\Testing\Fakes\MailFake;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Container\Container;
-use oliveready7\LaravelSes\SesMailFake;
+use ArchintelDev\LaravelSes\SesMailFake;
 
 /**
  * @see \Illuminate\Mail\Mailer

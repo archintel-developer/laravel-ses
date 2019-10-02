@@ -1,9 +1,9 @@
 <?php
 
-namespace oliveready7\LaravelSes\Models;
+namespace ArchintelDev\LaravelSes\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use oliveready7\LaravelSes\Models\EmailLink;
+use ArchintelDev\LaravelSes\Models\EmailLink;
 
 class SentEmail extends Model
 {

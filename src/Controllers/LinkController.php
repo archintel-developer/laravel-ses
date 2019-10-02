@@ -1,10 +1,10 @@
 <?php
 
-namespace oliveready7\LaravelSes\Controllers;
+namespace ArchintelDev\LaravelSes\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
-use oliveready7\LaravelSes\Models\EmailLink;
+use ArchintelDev\LaravelSes\Models\EmailLink;
 
 class LinkController extends BaseController
 {

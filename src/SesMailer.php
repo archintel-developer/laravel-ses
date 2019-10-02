@@ -1,14 +1,14 @@
 <?php
 
-namespace oliveready7\LaravelSes;
+namespace ArchintelDev\LaravelSes;
 
 use Illuminate\Mail\Mailer;
-use oliveready7\LaravelSes\Models\SentEmail;
-use oliveready7\LaravelSes\SesMailerInterface;
+use ArchintelDev\LaravelSes\Models\SentEmail;
+use ArchintelDev\LaravelSes\SesMailerInterface;
 use Carbon\Carbon;
-use oliveready7\LaravelSes\TrackingTrait;
-use oliveready7\LaravelSes\Services\Stats;
-use oliveready7\LaravelSes\Exceptions\TooManyEmails;
+use ArchintelDev\LaravelSes\TrackingTrait;
+use ArchintelDev\LaravelSes\Services\Stats;
+use ArchintelDev\LaravelSes\Exceptions\TooManyEmails;
 
 class SesMailer extends Mailer implements SesMailerInterface
 {

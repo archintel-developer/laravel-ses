@@ -1,6 +1,6 @@
 <?php
 
-namespace oliveready7\LaravelSes;
+namespace ArchintelDev\LaravelSes;
 
 use Aws\Ses\SesClient;
 use Aws\Sns\SnsClient;

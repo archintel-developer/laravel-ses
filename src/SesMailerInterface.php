@@ -1,8 +1,8 @@
 <?php
 
-namespace oliveready7\LaravelSes;
+namespace ArchintelDev\LaravelSes;
 
-use oliveready7\LaravelSes\Models\SentEmail;
+use ArchintelDev\LaravelSes\Models\SentEmail;
 
 interface SesMailerInterface
 {
