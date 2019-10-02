@@ -1,5 +1,5 @@
 {
-    "name": "archintel-dev/laravelses",
+    "name": "archintel-dev/laravel-ses",
     "description": "Email tracker",
     "type": "library",
     "license": "MIT",
