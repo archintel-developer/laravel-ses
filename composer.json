@@ -1,6 +1,6 @@
 {
     "name": "archintel-dev/laravel-ses",
-    "description": "Email tracker",
+    "description": "Allows you to track opens, deliveries, bounces, complaints and clicked links when sending emails through Laravel and Amazon SES. Credits to Oliver Eady.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,6 +11,7 @@
     ],
     "require": {
         "paquettg/php-html-parser": "^2.1",
+        "aws/aws-sdk-php": "^3.112",
         "aws/aws-php-sns-message-validator": "^1.5",
         "symfony/psr-http-message-bridge": "^1.2",
         "zendframework/zend-diactoros": "^2.1"
