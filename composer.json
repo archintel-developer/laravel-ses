@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelSes\\LaravelSesServiceProvider"
+                "LaravelSesServiceProvider"
             ],
             "aliases": {
-                "SesMail": "LaravelSes\\SesMail"
+                "SesMail": "SesMail"
             }
         }
     },
