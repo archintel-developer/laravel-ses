@@ -17,15 +17,15 @@ class LaravelSesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes.php');
         $this->loadViewsFrom(__DIR__.'/Mocking/Views', 'LaravelSes');
         $this->loadMigrationsFrom(__DIR__.'/Migrations');
         $this->publishes([
-           __DIR__.'/Assets' => public_path('laravel-ses'),
+           __DIR__.'/../Assets' => public_path('laravel-ses'),
         ], 'public');
 
         $this->publishes([
-            __DIR__.'/Config/laravelses.php' => config_path('laravelses.php')
+            __DIR__.'/../Config/laravelses.php' => config_path('laravelses.php')
         ], 'config');
 
 
@@ -44,7 +44,7 @@ class LaravelSesServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-           __DIR__.'/Config/laravelses.php',
+           __DIR__.'/../Config/laravelses.php',
             'laravelses'
        );
 

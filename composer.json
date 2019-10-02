@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "\\": "src/"
+            "LaravelSes\\": "src/"
         }
     },
     "autoload-dev": {
@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelSesServiceProvider"
+                "ArchintelDev\\LaravelSesServiceProvider"
             ],
             "aliases": {
-                "SesMail": "SesMail"
+                "SesMail": "ArchintelDev\\SesMail"
             }
         }
     },
