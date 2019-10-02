@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "archintelDev\\laravelSes\\": "src/"
+            "archintel-dev\\laravel-ses\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "archintelDev\\laravelSes\\Tests\\": "tests/"
+            "archintel-dev\\laravel-ses\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
