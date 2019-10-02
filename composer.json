@@ -21,21 +21,21 @@
     },
     "autoload": {
         "psr-4": {
-            "archintel-dev\\laravel-ses\\": "src/"
+            "ArchintelDev\\LaravelSes\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "archintel-dev\\laravel-ses\\Tests\\": "tests/"
+            "ArchintelDev\\LaravelSes\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "archintel-dev\\laravel-ses\\LaravelSesServiceProvider"
+                "ArchintelDev\\LaravelSes\\LaravelSesServiceProvider"
             ],
             "aliases": {
-                "SesMail": "archintel-dev\\laravel-ses\\SesMail"
+                "SesMail": "ArchintelDev\\LaravelSes\\SesMail"
             }
         }
     },
