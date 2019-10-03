@@ -1,6 +1,6 @@
 {
     "name": "archintel-dev/laravel-ses",
-    "description": "Allows you to track opens, deliveries, bounces, complaints and clicked links when sending emails through Laravel and Amazon SES. Credits to Oliver Eady.",
+    "description": "Allows you to track opens, deliveries, bounces, complaints and clicked links when sending emails through Laravel and Amazon SES. Credits to Oliver Eady <oliveready7@gmail.com>.",
     "type": "library",
     "license": "MIT",
     "authors": [

@@ -12,7 +12,7 @@ class EmailLink extends Model
 
     public function sentEmail()
     {
-        return $this->belongsTo('oliveready7\LaravelSes\Models\SentEmail');
+        return $this->belongsTo('ArchintelDev\LaravelSes\Models\SentEmail');
     }
 
     public function setClicked($clicked)

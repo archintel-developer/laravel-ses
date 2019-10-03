@@ -54,14 +54,14 @@ class SnsSetup
         ]);
 
         $result = $this->ses->setIdentityNotificationTopic([
-            'Identity' => config('services.ses.domain'),
+            'Identity' => config('laravelses.ses.domain'),
             'NotificationType' => $type,
             'SnsTopic' => $topicArn
         ]);
 
         $result = $this->ses->setIdentityHeadersInNotificationsEnabled([
             'Enabled' => true,
-            'Identity' => config('services.ses.domain'),
+            'Identity' => config('laravelses.ses.domain'),
             'NotificationType' => $type
         ]);
 
@@ -70,7 +70,7 @@ class SnsSetup
 
     public function notificationIsSet($type)
     {
-        $result = $this->ses->getIdentityNotificationAttributes(['Identities' => [config('services.ses.domain')]]);
-        return isset($result['NotificationAttributes'][config('services.ses.domain')]["{$type}Topic"]);
+        $result = $this->ses->getIdentityNotificationAttributes(['Identities' => [config('laravelses.ses.domain')]]);
+        return isset($result['NotificationAttributes'][config('laravelses.ses.domain')]["{$type}Topic"]);
     }
 }

@@ -19,22 +19,22 @@ class SentEmail extends Model
 
     public function emailOpen()
     {
-        return $this->hasOne('oliveready7\LaravelSes\Models\EmailOpen');
+        return $this->hasOne('ArchintelDev\LaravelSes\Models\EmailOpen');
     }
 
     public function emailLinks()
     {
-        return $this->hasMany('oliveready7\LaravelSes\Models\EmailLink');
+        return $this->hasMany('ArchintelDev\LaravelSes\Models\EmailLink');
     }
 
     public function emailBounce()
     {
-        return $this->hasOne('oliveready7\LaravelSes\Models\EmailBounce');
+        return $this->hasOne('ArchintelDev\LaravelSes\Models\EmailBounce');
     }
 
     public function emailComplaint()
     {
-        return $this->hasOne('oliveready7\LaravelSes\Models\EmailComplaint');
+        return $this->hasOne('ArchintelDev\LaravelSes\Models\EmailComplaint');
     }
 
     public static function numberSentForBatch($batchName)
