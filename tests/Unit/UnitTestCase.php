@@ -1,8 +1,8 @@
 <?php
-namespace oliveready7\LaravelSes\Tests\Unit;
+namespace ArchintelDev\LaravelSes\Tests\Unit;
 
-use oliveready7\LaravelSes\SesMail;
-use oliveready7\LaravelSes\LaravelSesServiceProvider;
+use ArchintelDev\LaravelSes\SesMail;
+use ArchintelDev\LaravelSes\LaravelSesServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class UnitTestCase extends OrchestraTestCase

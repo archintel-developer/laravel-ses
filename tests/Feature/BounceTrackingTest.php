@@ -1,10 +1,10 @@
 <?php
 
-namespace oliveready7\LaravelSes\Tests\Feature;
+namespace ArchintelDev\LaravelSes\Tests\Feature;
 
-use oliveready7\LaravelSes\Models\SentEmail;
-use oliveready7\LaravelSes\Models\EmailBounce;
-use oliveready7\LaravelSes\Tests\Feature\FeatureTestCase;
+use ArchintelDev\LaravelSes\Models\SentEmail;
+use ArchintelDev\LaravelSes\Models\EmailBounce;
+use ArchintelDev\LaravelSes\Tests\Feature\FeatureTestCase;
 
 class BounceTrackingTest extends FeatureTestCase
 {

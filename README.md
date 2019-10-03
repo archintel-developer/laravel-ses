@@ -5,7 +5,7 @@ Install via composer
 
 Add to composer.json
 ```
-composer require oliveready7/laravel-ses
+composer require archintel-dev/laravel-ses
 ```
 Make sure your app/config/services.php has SES values set
 

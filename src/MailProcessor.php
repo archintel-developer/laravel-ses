@@ -3,9 +3,9 @@
 namespace ArchintelDev\LaravelSes;
 
 use Ramsey\Uuid\Uuid;
-use oliveready7\LaravelSes\Models\EmailOpen;
-use oliveready7\LaravelSes\Models\SentEmail;
-use oliveready7\LaravelSes\Models\EmailLink;
+use ArchintelDev\LaravelSes\Models\EmailOpen;
+use ArchintelDev\LaravelSes\Models\SentEmail;
+use ArchintelDev\LaravelSes\Models\EmailLink;
 use PHPHtmlParser\Dom;
 
 class MailProcessor

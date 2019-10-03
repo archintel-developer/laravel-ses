@@ -1,14 +1,14 @@
 <?php
 
-namespace oliveready7\LaravelSes\Tests\Feature;
+namespace ArchintelDev\LaravelSes\Tests\Feature;
 
-use oliveready7\LaravelSes\Tests\Feature\FeatureTestCase;
-use oliveready7\LaravelSes\SesMail;
-use oliveready7\LaravelSes\Models\SentEmail;
-use oliveready7\LaravelSes\Models\EmailOpen;
-use oliveready7\LaravelSes\Models\EmailLink;
-use oliveready7\LaravelSes\Models\EmailComplaint;
-use oliveready7\LaravelSes\Mocking\TestMailable;
+use ArchintelDev\LaravelSes\Tests\Feature\FeatureTestCase;
+use ArchintelDev\LaravelSes\SesMail;
+use ArchintelDev\LaravelSes\Models\SentEmail;
+use ArchintelDev\LaravelSes\Models\EmailOpen;
+use ArchintelDev\LaravelSes\Models\EmailLink;
+use ArchintelDev\LaravelSes\Models\EmailComplaint;
+use ArchintelDev\LaravelSes\Mocking\TestMailable;
 use Illuminate\Database\Eloquent\Collection;
 
 class StatsTest extends FeatureTestCase
