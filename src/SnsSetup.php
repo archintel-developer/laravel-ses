@@ -40,7 +40,7 @@ class SnsSetup
     public function setupNotification($type, $protocol)
     {
         $result = $this->sns->createTopic([
-            'Name' => "laravel-ses-{$type}"
+            'Name' => "sr-{$type}"
         ]);
 
         $topicArn = $result['TopicArn'];
@@ -48,7 +48,7 @@ class SnsSetup
         $urlSlug = strtolower($type);
 
         $result = $this->sns->subscribe([
-            'Endpoint' => config('app.url') . "/laravel-ses/notification/{$urlSlug}",
+            'Endpoint' => config('app.url') . "/sr/notification/{$urlSlug}",
             'Protocol' => $protocol,
             'TopicArn' => $topicArn
         ]);
