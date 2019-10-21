@@ -31,7 +31,7 @@ trait TrackingTrait
 
     public function setBatch($batch)
     {
-        $this->batch = $batch;
+        $this->batch = $batch;  
         return $this;
     }
 
