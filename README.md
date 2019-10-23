@@ -1,6 +1,9 @@
 # laravel-ses
 A Laravel 5.5+ Package that allows you to get simple sending statistics for emails you send through SES, including deliveries, opens, bounces, complaints and link tracking.
 
+###### Cloned from [oliveready7/laravel-ses](https://github.com/oliveready7/laravel-ses)
+###### SesCompanion - Updated and added some features on existing package. [Instructions](https://packagist.org/packages/archintel-dev/ses-companion)
+
 Install via composer
 
 Add to composer.json
@@ -23,23 +26,17 @@ SNS (for deliveries, bounces and complaints) as well as SES
 
 Make sure your mail driver located in app/config/mail.php is set to 'ses'
 
-Publish public assets
+Publish these two service providers
 
 ```
-php artisan vendor:publish --tag=public --force
+php artisan vendor:publish --provider="ArchintelDev\LaravelSes\LaravelSesServiceProvider"
 ```
+then
+```
+php artisan vendor:publish --provider="ArchintelDev\SesCompanion\SesCompanionServiceProvider"
+```
+You can find the package installation instruction [here](https://packagist.org/packages/archintel-dev/ses-companion).
 
-Migrate the package's database tables
-
-```
-php artisan migrate
-```
-
-Optionally you can publish the package's config (laravelses.php)
-
-```
-php artisan vendor:publish --tag=config
-```
 
 Config Options
 - aws_sns_validator - whether the package uses AWS's SNS validator for inbound SNS requests. Default = false
@@ -53,8 +50,10 @@ php artisan setup:sns
 ```
 
 ## Usage
+**You can use the added features [here](https://packagist.org/packages/archintel-dev/ses-companion).**
 
-To send an email with all tracking enabled
+
+~~To send an email with all tracking enabled~~
 
 ```
 SesMail::enableAllTracking()
