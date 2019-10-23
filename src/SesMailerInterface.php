@@ -12,6 +12,8 @@ interface SesMailerInterface
     public function setupTracking($setupTracking, SentEmail $sentEmail);
     public function setBatch($batch);
     public function getBatch();
+    public function setAccount($client);
+    public function getAccount();
     public function enableOpenTracking();
     public function enableLinkTracking();
     public function enableBounceTracking();

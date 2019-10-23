@@ -38,7 +38,7 @@ class MailProcessor
     public function openTracking()
     {
         $beaconIdentifier = Uuid::uuid4()->toString();
-        $beaconUrl = config('app.url') . "/laravel-ses/beacon/$beaconIdentifier";
+        $beaconUrl = config('app.url') . "/sr/beacon/$beaconIdentifier";
 
         EmailOpen::create([
             'sent_email_id' => $this->sentEmail->id,
@@ -78,6 +78,6 @@ class MailProcessor
             'original_url' => $originalUrl
         ]);
 
-        return config('app.url') . "/laravel-ses/link/$linkIdentifier";
+        return config('app.url') . "/sr/link/$linkIdentifier";
     }
 }

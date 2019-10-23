@@ -13,6 +13,7 @@ trait TrackingTrait
     private $complaintTracking = false;
     private $deliveryTracking = false;
     private $batch;
+    private $client;
 
 
     public function setupTracking($emailBody, SentEmail $sentEmail)
@@ -38,6 +39,17 @@ trait TrackingTrait
     public function getBatch()
     {
         return $this->batch;
+    }
+
+    public function setAccount($client)
+    {
+        $this->client = $client;
+        return $this;
+    }
+
+    public function getAccount()
+    {
+        return $this->client;
     }
 
     public function enableOpenTracking()

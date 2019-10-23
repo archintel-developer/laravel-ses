@@ -10,9 +10,10 @@
         }
     ],
     "require": {
-        "paquettg/php-html-parser": "^2.1",
+        "archintel-dev/ses-companion": "dev-master",
         "aws/aws-sdk-php": "^3.112",
         "aws/aws-php-sns-message-validator": "^1.5",
+        "paquettg/php-html-parser": "^2.1",
         "symfony/psr-http-message-bridge": "^1.2",
         "zendframework/zend-diactoros": "^2.1"
     },

@@ -35,6 +35,7 @@ class SesMailer extends Mailer implements SesMailerInterface
             'message_id' => $message->getId(),
             'email' => key($message->getTo()),
             'batch' => $this->getBatch(),
+            'client_id' => $this->getAccount(),
             'sent_at' => Carbon::now(),
             'delivery_tracking' => $this->deliveryTracking,
             'complaint_tracking' => $this->complaintTracking,
