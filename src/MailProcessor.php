@@ -44,6 +44,7 @@ class MailProcessor
             'sent_email_id' => $this->sentEmail->id,
             'email' => $this->sentEmail->email,
             'batch' => $this->sentEmail->batch,
+            'client_id' => $this->sentEmail->client_id,
             'beacon_identifier' => $beaconIdentifier,
             'url' => $beaconUrl,
         ]);
